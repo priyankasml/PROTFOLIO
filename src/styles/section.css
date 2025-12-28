@@ -1,0 +1,23 @@
+.section {
+  position: relative;
+  padding: 6rem 2rem;
+}
+
+.section h2 {
+  font-size: 2rem;
+  color: #4b6cb7;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 0 0 10px #4b6cb7;
+}
+
+/* Smooth fade-in animation for all sections */
+.section-content {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInSection 1s forwards;
+}
+
+@keyframes fadeInSection {
+  to { opacity: 1; transform: translateY(0); }
+}

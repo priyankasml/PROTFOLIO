@@ -1,0 +1,32 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.skill-item {
+  text-align: center;
+}
+
+.skill-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #22d3ee calc(var(--percent) * 1%),
+    #1e293b 0
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-percent {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.skill-name {
+  margin-top: 0.6rem;
+}
