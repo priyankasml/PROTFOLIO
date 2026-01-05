@@ -12,7 +12,7 @@ const projectsData = [
     name: "Finance B2B Anomaly Detection & Insight Dashboard",
     description:
       "AI-driven interactive dashboard for monitoring, detecting, and explaining anomalies in B2B financial time-series datasets. Combines time-series modeling, isolation-forest detection, and RAG-style LLM explanations.",
-    link: "#",
+    link: "https://github.com/priyankasml/FINANCE-B2B",   // ✅ added repo link only
   },
   {
     name: "DevOps Automation for Online Art Gallery Platform",
@@ -27,7 +27,14 @@ const Projects = () => (
     <h2 className="projects-title">Projects</h2>
     <div className="project-list">
       {projectsData.map((project, index) => (
-        <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="project-card" style={{ animationDelay: `${index * 0.2}s` }}>
+        <a
+          key={index}
+          href={project.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-card"
+          style={{ animationDelay: `${index * 0.2}s` }}
+        >
           <h3>{project.name}</h3>
           <p>{project.description}</p>
         </a>
