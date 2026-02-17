@@ -11,11 +11,11 @@ const Hero = () => {
           <span className="hero-badge">Cloud & AI Enthusiast</span>
 
           <h1>
-            Maha Lakshmi <span>Priyanka</span>
+          MAHA LAKSHMI  <span>PRIYANKA</span>
           </h1>
 
           <h2 className="typewriter">
-            Exploring Cloud, AI & Modern Web Technologies
+          <B> Developing Intelligent Applications Using Cloud, AI & Modern Web Technologies</B>
           </h2>
 
           <p>
