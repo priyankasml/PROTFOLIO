@@ -15,7 +15,7 @@ const Hero = () => {
           </h1>
 
           <h2 className="typewriter">
-          <B> Developing Intelligent Applications Using Cloud, AI & Modern Web Technologies</B>
+          <B>Developing Intelligent Applications Using Cloud, AI & Modern Web Technologies</B>
           </h2>
 
           <p>
