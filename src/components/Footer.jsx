@@ -34,7 +34,7 @@ const Footer = () => {
 
         {/* Middle Section: Quick Links */}
         <div className="footer-links">
-          <h4>Quick Links</h4>
+          <h4>Go Through</h4>
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
