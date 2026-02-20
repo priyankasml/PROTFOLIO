@@ -1,4 +1,3 @@
-// src/components/HeroBackground.jsx
 import React from "react";
 import Particles from "react-tsparticles";
 

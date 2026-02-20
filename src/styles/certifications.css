@@ -1,18 +1,43 @@
+/* Certifications Grid */
 .cert-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
 }
 
+/* Certification Card */
 .cert-card {
-  background: #020617;
-  border: 1px solid #1e293b;
+  background: #1b1e23;               /* dark concrete */
+  border: 1px solid #2a2f36;         /* subtle edge */
   padding: 1.5rem;
   border-radius: 14px;
   text-align: center;
+  transition: all 0.3s ease;
 }
 
+/* Hover effect */
+.cert-card:hover {
+  border-color: #4f9cff;             /* accent */
+  box-shadow: 0 0 18px rgba(79, 156, 255, 0.25);
+  transform: translateY(-4px);
+}
+
+/* Certificate Name */
+.cert-card h3 {
+  color: #e6e7eb;                    /* primary text */
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Platform */
 .cert-platform {
-  color: #94a3b8;
+  color: #a1a6b3;                    /* muted text */
   font-size: 0.9rem;
+}
+
+/* Date */
+.cert-date {
+  color: #6f7785;                    /* secondary muted */
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
 }

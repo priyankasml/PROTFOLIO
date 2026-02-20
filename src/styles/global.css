@@ -10,8 +10,8 @@ html {
 }
 
 body {
-  background: #020617;
-  color: #e5e7eb;
+  background: #0a0a0a;        /* pure black */
+  color: #e5e5e5;             /* light gray text */
   overflow-x: hidden;
 }
 
@@ -22,13 +22,11 @@ body {
 h2 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
-  color: #22d3ee;
+  color: #f5f5f5;             /* near-white gray */
   text-align: center;
 }
 
 p {
   line-height: 1.7;
-  color: #cbd5f5;
+  color: #bdbdbd;             /* medium gray */
 }
-
-

@@ -2,17 +2,37 @@
   max-width: 800px;
   margin: auto;
   text-align: center;
+  background: transparent; /* keep layout same */
 }
 
+/* Title */
+.about-title {
+  color: #e6e7eb;              /* main text */
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+/* Paragraph text */
 .about-text {
   margin-bottom: 1.2rem;
+  color: #a1a6b3;              /* muted text */
+  line-height: 1.7;
 }
 
+/* Read More button */
 .read-more-btn {
-  background: none;
-  border: 1px solid #22d3ee;
-  color: #22d3ee;
+  background: transparent;
+  border: 1px solid #4f9cff;   /* accent */
+  color: #4f9cff;
   padding: 10px 22px;
   border-radius: 25px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.read-more-btn:hover {
+  background: #1f3b63;         /* accent soft */
+  color: #e6e7eb;
+  box-shadow: 0 0 12px rgba(79, 156, 255, 0.35);
 }

@@ -1,7 +1,125 @@
+/* SOCIAL BUTTONS (Replacing Icons) */
+.social-buttons-container {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.btn-social {
+  background: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid #2a2a2a;
+  padding: 8px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-social:hover {
+  background: #222222;
+  border-color: #444;
+  transform: translateY(-2px);
+}
+
+/* KEEPING YOUR EXISTING GET IN TOUCH BUTTON STYLE */
+.btn-get-in-touch {
+  background: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid #2a2a2a;
+  padding: 10px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: all 0.3s ease;
+}
+
+.btn-get-in-touch:hover {
+  background: #222222;
+  transform: translateY(-2px);
+}
+
+/* REST OF YOUR CSS REMAINS THE SAME */
 .footer {
-  padding: 2rem;
+  background: linear-gradient(180deg, #0a0a0a, #000000);
+  color: #e5e5e5;
+  padding: 4rem 8% 2rem;
+  position: relative;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.brand-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1.4rem;
+}
+
+.brand-logo {
+  background: #1a1a1a;
+  color: #ffffff;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-weight: 600;
+  border: 1px solid #2a2a2a;
+}
+
+.brand-desc {
+  color: #b0b0b0;
+  max-width: 320px;
+  line-height: 1.7;
+  margin-bottom: 1.6rem;
+}
+
+.footer h4 {
+  font-size: 1.05rem;
+  margin-bottom: 1.4rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.footer-links ul { list-style: none; padding: 0; }
+.footer-links li { margin-bottom: 0.8rem; }
+.footer-links a { color: #b5b5b5; text-decoration: none; transition: 0.3s; }
+.footer-links a:hover { color: #ffffff; }
+
+.footer-contact p { color: #b5b5b5; margin-bottom: 0.7rem; }
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid #1f1f1f;
+  margin-bottom: 1.8rem;
+}
+
+.footer-bottom {
   text-align: center;
-  background: #020617;
-  border-top: 1px solid #1e293b;
-  color: #94a3b8;
+  color: #9a9a9a;
+  font-size: 0.85rem;
+}
+
+.heart { color: #ffffff; }
+
+.scroll-top {
+  position: absolute;
+  right: 22px;
+  bottom: 22px;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  color: #ffffff;
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  cursor: pointer;
 }
